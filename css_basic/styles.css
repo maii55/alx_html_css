@@ -1,0 +1,47 @@
+Set-Content -Path css_basic/styles.css -Value @"
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
+"@
+header {
+background-color: #1DA1F2;
+color: white;
+padding: 1rem;
+}
+article {
+background-color: #f9f9f9;
+padding: 1rem;
+border: 1px solid #ddd;
+}
+aside {
+background-color: #e6f3fa;
+padding: 1rem;
+border: 1px solid #ddd;
+}
+footer {
+background-color: #333;
+color: white;
+padding: 1rem;
+text-align: center;
+}
+.logo {
+font-size: 2rem;
+font-weight: bold;
+}
